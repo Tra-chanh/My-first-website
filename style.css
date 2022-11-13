@@ -92,7 +92,7 @@ html {
    left: 0;
    right: 0;
    height: 50px;
-   background-color: #000;
+   background-color: brown;
    z-index: 1;
    overflow: hidden;
 }
