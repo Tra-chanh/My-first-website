@@ -1,5 +1,10 @@
 /* mobile */
-@media (max-width:740px) {
+@media (max-width:46.25em) {
+
+    .s-col-full,
+    .s-full-width {
+        width: 100%;
+    }
 
     #nav {
         display: block;
@@ -7,6 +12,10 @@
 
     #nav>li>a {
         display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
     }
 
     #nav>li {
@@ -17,14 +26,50 @@
         display: inline-block;
     }
 
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
     #header .search-btn {
         display: none;
+    }
+
+    #header {
+        overflow: hidden;
     }
 
     #header .mobile-menu-btn {
         display: block;
     }
+
+    #content .member-list {
+        flex-direction: column;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
 }
+
 
 /* tablet */
 @media (min-width:740px) and (max-width:1023) {}
