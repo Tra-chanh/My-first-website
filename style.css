@@ -204,7 +204,7 @@ html {
    background-color: green;
    margin-top: 50px;
    padding-top: 50%;
-   background: url("assets/css/band1.jpg") top center /cover no-repeat;
+   background: url("./assets/css/band1.jpg") top center /cover no-repeat;
 }
 
 #slider .text-content {
