@@ -68,6 +68,13 @@
     .contact-form {
         margin-top: 32px;
     }
+
+    .dat-ly {
+        position: relative;
+        display: block;
+        right: 0;
+        left: 0;
+    }
 }
 
 
